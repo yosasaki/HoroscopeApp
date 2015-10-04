@@ -1,0 +1,2 @@
+# HoroscopeApp
+占いアプリのリポジトリ
