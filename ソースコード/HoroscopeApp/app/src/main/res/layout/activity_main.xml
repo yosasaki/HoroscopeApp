@@ -1,0 +1,172 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:stretchColumns="2">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="12星座占い 今日の運勢"
+            android:textColor="#0000ff"
+            android:id="@+id/title"
+            android:layout_span ="3"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="YYYY年MM月DD日"
+            android:textColor="#008000"
+            android:id="@+id/date"
+            android:layout_span ="3"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="おひつじ座"
+                android:textColor="#ffffff"
+                android:background="#000080"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/button1" />
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="おうし座"
+                android:textColor="#ffffff"
+                android:background="#000080"
+                android:layout_marginRight="5dp"
+                android:id="@+id/button2"
+                android:layout_column="2" />
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ふたご座"
+                android:textColor="#ffffff"
+                android:background="#000080"
+                android:id="@+id/button3"
+                android:layout_column="3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="かに座"
+                android:textColor="#ffffff"
+                android:background="#000080"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/button4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="しし座"
+            android:textColor="#ffffff"
+            android:background="#000080"
+            android:layout_marginRight="5dp"
+            android:id="@+id/button5"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="おとめ座"
+            android:textColor="#ffffff"
+            android:background="#000080"
+            android:id="@+id/button6"
+            android:layout_column="3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="てんびん座"
+            android:textColor="#ffffff"
+            android:background="#000080"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/button7" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="さそり座"
+            android:id="@+id/button8"
+            android:textColor="#ffffff"
+            android:background="#000080"
+            android:layout_marginRight="5dp"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="いて座"
+            android:textColor="#ffffff"
+            android:background="#000080"
+            android:id="@+id/button9"
+            android:layout_column="3" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="やぎ座"
+            android:textColor="#ffffff"
+            android:background="#000080"
+            android:layout_marginRight="5dp"
+            android:id="@+id/button10" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="みずがめ座"
+            android:textColor="#ffffff"
+            android:background="#000080"
+            android:layout_marginRight="5dp"
+            android:id="@+id/button11"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="うお座"
+            android:textColor="#ffffff"
+            android:background="#000080"
+            android:id="@+id/button12"
+            android:layout_column="3" />
+    </TableRow>
+
+</TableLayout>
+
